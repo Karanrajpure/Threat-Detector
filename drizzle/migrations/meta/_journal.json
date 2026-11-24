@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795154101152,
+      "tag": "0000_threatgrid_team_workspaces",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1795157133222,
+      "tag": "0001_workspace_file_uploads",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1795157350231,
+      "tag": "0002_prevent_removed_members_rejoining",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1795158388763,
+      "tag": "0003_scope_edit_access_check_to_caller",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1795158572059,
+      "tag": "0004_keep_workspace_role_lookup_self_scoped",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1795495663980,
+      "tag": "0005_strengthen_invite_codes",
+      "breakpoints": true
+    }
+  ]
+}

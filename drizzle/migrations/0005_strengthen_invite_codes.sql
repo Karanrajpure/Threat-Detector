@@ -1,0 +1,2 @@
+ALTER TABLE public.workspaces ALTER COLUMN invite_code SET DEFAULT upper(replace(gen_random_uuid()::text, '-', ''));
+UPDATE public.workspaces SET invite_code = upper(replace(gen_random_uuid()::text, '-', '')) WHERE length(invite_code) < 32;
